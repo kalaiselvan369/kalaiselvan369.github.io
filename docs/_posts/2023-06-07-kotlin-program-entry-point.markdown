@@ -5,6 +5,10 @@ date:   2023-06-07 16:11:38 +0530
 categories: jekyll update
 ---
 
+Function that is automatically invoked and program is executed.
+
+<!--more-->
+
 `main` function is the entry point to the Kotlin program. 
 
 `main` function is automatically invoked when Kotlin program is executed
