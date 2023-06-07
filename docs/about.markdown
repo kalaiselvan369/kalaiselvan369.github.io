@@ -3,16 +3,15 @@ layout: page
 title: About
 permalink: /about/
 ---
+Hello, 
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am Kalaiselvan
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+- 7.8 years of experience in building Android applications using Java and Kotlin. 
+- Technical Lead for the team of 5 engineers and motivated them to write unit tests. 
+- Mentored junior developers to follow software principles like SOLID, DRY, KISS, etc.
+- Have published 5+ android applications in google play store developed from scratch. 
+- Hands-on experience in building apps using MVVM & multi module architecture pattern.
+- Hands-on experience in integrating Jetpack compose & jetpack libraries.
+- Hands-on experience in using 3rd party libraries like Dagger, Hilt, RxJava, Glide, Coroutines, Retrofit.
+- Automated app publishing process(CI-CD) using Fastlane via gitlab.
