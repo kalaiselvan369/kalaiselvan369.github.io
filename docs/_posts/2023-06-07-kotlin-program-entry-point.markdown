@@ -4,11 +4,12 @@ title:  "Kotlin Program Entry Point"
 date:   2023-06-07 16:11:38 +0530
 categories: jekyll update
 ---
-![Kotlin Logo](/assets/kotlin-logo.svg)
+![Kotlin Logo](/assets/kotlin-logo.png)
+
 Function that is automatically invoked when program is executed.
 <!--more-->
 
-![Kotlin Logo](/assets/kotlin-logo.svg)
+![Kotlin Logo](/assets/kotlin-logo.png)
 
 `main` function is the entry point to the Kotlin program. 
 
