@@ -29,6 +29,7 @@ github_username:  kalaiselvan369
 
 # Build settings
 theme: minima
+show_excerpts: true
 plugins:
   - jekyll-feed
 
@@ -51,3 +52,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+excerpt_separator: "<!--more-->" #global excerpt separator for the blog posts
