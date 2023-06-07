@@ -3,6 +3,7 @@ layout: post
 title:  "Kotlin Program Entry Point"
 date:   2023-06-07 16:11:38 +0530
 categories: jekyll update
+excerpt_separator: <!--more-->
 ---
 
 Function that is automatically invoked and program is executed.
