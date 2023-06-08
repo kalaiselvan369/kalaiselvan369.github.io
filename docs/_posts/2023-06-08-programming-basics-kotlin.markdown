@@ -1,12 +1,10 @@
 ---
 layout: post
 title:  "Programming Basics using Kotlin"
-date:   2023-06-08 16:11:38 +0530
+date:   2023-06-08 17:11:38 +0530
 categories: jekyll update
 tag: kotlin
 ---
-![Kotlin Logo](/assets/kotlin-logo.png)
-
 Kotlin Basics that all developer should learn before diving into intermediate and advanced topics.
 <!--more-->
 
