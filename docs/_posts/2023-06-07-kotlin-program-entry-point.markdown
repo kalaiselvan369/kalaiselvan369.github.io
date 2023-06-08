@@ -81,23 +81,25 @@ Each data has a type. We have predefined data types such as
 
 Characters are represented by the type `char`
 
-#### Special characters start from an escaping backslash
+Special characters start from an escaping backslash
 
-1. \t – tab
+1. `\t` – tab
 
-2. \b – backspace
+2. `\b` – backspace
 
-3. \n – new line (LF)
+3. `\n` – new line (LF)
 
-4. \r – carriage return (CR)
+4. `\r` – carriage return (CR)
 
-5. \' – single quotation mark
+5. `\'` – single quotation mark
 
-6. \" – double quotation mark
+6. `\"` – double quotation mark
 
-7. \\ – backslash
+7. `\\` – backslash
 
-8. \$ – dollar sign
+8. `\$` – dollar sign
+
+> Adding Int to a Char yields another Char
 
 {% gist 464ce8ca09c3f3279ee081327a91b5b1 %}
 
@@ -107,52 +109,51 @@ Characters are represented by the type `char`
 2. `||` (OR) logical `OR` or disjunction
 3. `!` (NOT) logical `NOT` or negation
 
-### Assignment Operators
+## Assignment Operators
 
 {% gist 7e8536f87b32acb6cd0e73ea8c6153ca %}
 
-### Increment and Decrement Operators
+## Increment and Decrement Operators
 
 For post increment, i++
 
 > first produce the result, then do the increment.
  
-1. Store the initial value of i to a temporary storage i0.
-2. Assign the result of i0.inc() to i.
-3. Return i0 as the result of the expression that is why `j` value is 0
+1. Store the initial value of `i` to a temporary storage `i0`.
+2. Assign the result of `i0.inc()` to `i`.
+3. Return `i0` as the result of the expression. That is why `j` value is 0
 
 For pre increment, ++k
 
 > first do the increment, then return the resulting value.
 
-1. Assign the result of k.inc() to l.
+1. Assign the result of `k.inc()` to `l`.
 2. Return the new value of `l` as a result of the expression.
 
 {% gist 3d95a7eee899a579b046b2332ff36a9b %}
 
-### Ranges
+## Ranges
 
 1. Using for loop with `in` keyword
 2. Using Ranges with help of `..`, `until`, `downTo`, `step`
 3. Looping Char `a`..`z`
-4. Adding Int to a Char yields another Char
-5. Find Char in String using `in` keyword
+4. Find Char in String using `in` keyword
 
-{% gist 194582f654458e197b4158cd3563160d % }
+{% gist 194582f654458e197b4158cd3563160d %}
 
-### `in` keyword
+## Using `in` keyword
 
 `in` can be used for iteration in for loops and to check membership.
 
 {% gist 3651e403aae9437b8b0f0b70e7e79d1f %}
 
-### Expression 
+## Expression 
 
 Expression yields result
 
 Example for expression: if-else as an expression
 
-### Statement
+## Statement
 
 Statement create side effect and doesn't produce result
 
