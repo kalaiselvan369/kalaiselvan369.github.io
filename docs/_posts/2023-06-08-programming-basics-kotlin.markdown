@@ -5,6 +5,9 @@ date:   2023-06-08 17:11:38 +0530
 categories: jekyll update
 tag: kotlin
 ---
+
+![post cover](/assets/post-1-cover.png){: width="250" }
+
 Kotlin Basics that all developer should learn before diving into intermediate and advanced topics.
 <!--more-->
 
