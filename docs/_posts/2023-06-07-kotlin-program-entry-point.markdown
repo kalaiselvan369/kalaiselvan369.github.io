@@ -3,6 +3,7 @@ layout: post
 title:  "Kotlin Program Entry Point"
 date:   2023-06-07 16:11:38 +0530
 categories: jekyll update
+tag: kotlin
 ---
 ![Kotlin Logo](/assets/kotlin-logo.png)
 
@@ -18,3 +19,4 @@ Function that is automatically invoked when program is executed.
 if `main` function contain's a parameter then the type of the parameter should be `Array<String>`
 
 {% gist c1715cccf0bb1c34bffcf34e52d27a2b %}
+
