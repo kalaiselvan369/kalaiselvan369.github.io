@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "OOP Basics using Kotlin"
-date:   2023-06-09 10:38:38 +0530
+date:   2023-06-09 11:38:38 +0530
 categories: jekyll update
 tag: kotlin
 ---
 
 ![post cover](/assets/oop-part-1.jpeg){: width="250" }
 
-Working with classes, constructors and access modifiers in Kotlin
+Working with classes, constructors and visibility modifiers in Kotlin
 <!--more-->
 
 ## Object Oriented Programming
@@ -43,19 +43,49 @@ Special type of member function to instantiate a class.
 
 {% gist 1c93823b0b07fe71973440778791eac4 %}
 
-## Access Modifiers
+## Visibility Modifiers
 
-1. public
+1. public 
 2. private
 3. protected
-4. internal - it is accessible only inside the module in which the class/function/property is declared
+4. internal 
 
-### Top level function/property/classes
+Let's see how visibility modifiers applies to class members
+
+> Properties, Functions that belong to a class are called as class members
+
+### Public
+
+- Class members are accessible to anyone outside the class provided that the class containing the members is public.
+- To a class be public we need not declare it explicitly `public`
+
+### Private
+
+Members visible only to other members of the same class
+
+{% gist 6b109a2674701772a1d509a7228d93f3 %}
+
+### Protected
+
+Same as private but the members visible to the subclass also.
+
+{% gist b3c8ef6a387c372ec70985c97c07ac23 %}
+
+### Internal
+
+`internal` is accessible only inside the module in which the classes, functions and properties are declared
+
+### Top level Function | Property | Class
+
+Classes, Functions and Properties that are declared inside a package within a file with extension `.kt`
+are said to be top level. 
 
 Top level functions, property and classes that are declared `private` are accessible 
 only within the file where they are declared.
 
 {% gist 33a1acd7caa1b8ceb7e2ee931a69fbed %}
+
+`protected` modifier doesn't apply to top level class, property and function.
 
 ## Packages
 
