@@ -8,20 +8,20 @@ tag: kotlin
 
 ![post cover](/assets/oop-part-1.jpeg){: width="250" }
 
-Working with classes, constructors and visibility modifiers in Kotlin
+Working with classes, constructors and access modifiers in Kotlin
 <!--more-->
 
-## OOP Definition
+## Object Oriented Programming
 
-It is a computer programming paradigm based on the concept of objects. Object contains data 
+It is a computer programming paradigm based on the concept of objects. Object contains state 
 in the form of attributes or properties and actions in the form of method or functions.
 
-We are representing real world objects into a model or object that software program can interpret.
+In OOP, we representing real world objects into a model/object to derive solution for a particular problem.
 
 ### Example 
 
-Let's take a computer monitor which has size, color, model number which we can call it as attributes
-or properties and on, off, restart capabilities as methods or functions.
+Let's talk about computer monitor. It comes out with variety of size, color, model which we can call it as attributes
+or properties and on, off, restart capabilities which we can call it as methods or functions.
 
 ## Class
 
