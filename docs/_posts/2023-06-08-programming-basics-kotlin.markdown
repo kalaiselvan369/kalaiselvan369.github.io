@@ -46,7 +46,7 @@ var identifier = initalization
 
 ## Data types
 
-Each data has a type. We have predefined data types such as
+Each data has a type. Kotlin has predefined data types such as
 
 1. Numbers  - Int, Float, Literal Constants
 2. Characters
@@ -66,8 +66,8 @@ Each data has a type. We have predefined data types such as
 
 ### Floating point type
 
-1. Float - single precision - 6 to 7 decimal digits
-2. Double - double precision - 15 to 16 decimal digits
+1. Float - single precision - 6 to 7 decimal points
+2. Double - double precision - 15 to 16 decimal points
 
 ### Literal Constants
 
@@ -80,7 +80,7 @@ Each data has a type. We have predefined data types such as
 
 ### Characters
 
-Characters are represented by the type `char`
+Characters are represented by the type `Char`
 
 Special characters start from an escaping backslash
 
