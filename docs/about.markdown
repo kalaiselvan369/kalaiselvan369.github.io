@@ -31,6 +31,7 @@ Dagger, Hilt, RxJava, Glide, Coil, Coroutines, Retrofit, OkHttp, Timber, Room, S
 
 [LinkedIn](https://www.linkedin.com/in/kalaiselvan-coumararadjou-b3b6a162/)
 
+
 ### Apps that I have architected and developed 
 
 [Invoice App](https://play.google.com/store/apps/details?id=com.invoicegeneratorapp.android)
