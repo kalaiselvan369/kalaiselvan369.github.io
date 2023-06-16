@@ -109,6 +109,7 @@ To avoid null pointer exception in code, we can use some checks
 1. Class to hold data
 2. Class Constructor should contain at-least one parameter 
 3. Compiler only uses the properties defined inside the primary constructor for the automatically generated functions.
-4. Automatically generated functions are `equals()`, `copy()`, `hashCode()`, `toString()`, `componentN()`
+4. Automatically generated functions are `equals()`, `hashCode()`, `toString()`, `componentN()`
+5. `copy()` is special automatically generated functions which allow to access properties declared in the body as well.
 
 {% gist 4b05c87d173222c76ca7f6174c5bae2e %}
